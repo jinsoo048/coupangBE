@@ -1,0 +1,13 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: demo
+
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://springinstance.cpmnvgbez40n.ap-northeast-2.rds.amazonaws.com:3306/baemin?autoReconnect=true
+    username: master
+    password: ghdus123
+    driver-class-name: com.mysql.cj.jdbc.Driver

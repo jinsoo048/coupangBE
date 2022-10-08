@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="debc4342-70c9-48e7-afdd-40b1654b3b0d" name="spring_api" url="https://www.devhoyeon.shop/">
+        <fileTransfer rootFolder="/var/www/api-server-spring-boot" accessType="SFTP" host="54.180.83.219" port="22" sshConfigId="c0860e34-f35b-4abd-9381-2dc03fa181ae" sshConfig="ubuntu@54.180.83.219:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
