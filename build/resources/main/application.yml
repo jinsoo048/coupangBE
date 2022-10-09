@@ -7,7 +7,7 @@ spring:
 
   datasource:
     platform: mysql
-    url: jdbc:mysql://springinstance.cpmnvgbez40n.ap-northeast-2.rds.amazonaws.com/baemin?autoReconnect=true
-    username: master
-    password: ghdus123
+    url: jdbc:mysql://3.38.76.55:3306/baemin?autoReconnect=true
+    username: root
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
